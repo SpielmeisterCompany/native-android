@@ -6,27 +6,26 @@
 	<xsl:param name="version" />
 	<xsl:param name="versionCode" />
 
-	<xsl:param name="gameHash">0.0</xsl:param>
-	<xsl:param name="sdkHash">1.0</xsl:param>
-	<xsl:param name="androidHash">1.0</xsl:param>
-	<xsl:param name="develop">false</xsl:param>
-	<xsl:param name="appid"></xsl:param>
-	<xsl:param name="shortname">tealeaf</xsl:param>
-	<xsl:param name="studioName">Wee Cat Studios</xsl:param>
-	<xsl:param name="codeHost">s.wee.cat</xsl:param>
-	<xsl:param name="tcpHost">s.wee.cat</xsl:param>
-	<xsl:param name="codePort">80</xsl:param>
-	<xsl:param name="tcpPort">4747</xsl:param>
-	<xsl:param name="entryPoint">gc.native.launchClient</xsl:param>
-	<xsl:param name="pushUrl">http://staging.api.gameclosure.com/push/%s/?device=%s&amp;version=%s</xsl:param>
-	<xsl:param name="servicesUrl">http://api.gameclosure.com</xsl:param>
-	<xsl:param name="disableLogs">true</xsl:param>
-	<xsl:param name="debuggable">false</xsl:param>
-	<xsl:param name="installShortcut">false</xsl:param>
-
-	<xsl:param name="contactsUrl"></xsl:param>
-
-	<xsl:param name="orientation"></xsl:param>
+	<xsl:param name="gameHash" />
+	<xsl:param name="sdkHash" />
+	<xsl:param name="androidHash" />
+	<xsl:param name="develop" />
+	<xsl:param name="appid" />
+	<xsl:param name="shortname" />
+	<xsl:param name="studioName" />
+	<xsl:param name="codeHost" />
+	<xsl:param name="tcpHost" />
+	<xsl:param name="codePort" />
+	<xsl:param name="tcpPort" />
+	<xsl:param name="entryPoint" />
+	<xsl:param name="pushUrl" />
+	<xsl:param name="servicesUrl" />
+	<xsl:param name="disableLogs" />
+	<xsl:param name="debuggable" />
+	<xsl:param name="installShortcut" />
+	<xsl:param name="contactsUrl" />
+	<xsl:param name="orientation" />
+	
 	<xsl:strip-space elements="*" />
 	<xsl:output indent="yes" />
 	<xsl:template match="comment()" />
