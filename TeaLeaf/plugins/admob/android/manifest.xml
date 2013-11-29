@@ -1,0 +1,9 @@
+<!--START_PLUGINS_MANIFEST-->
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_ACTIVITY-->
+<!--END_PLUGINS_ACTIVITY-->
+<!--START_PLUGINS_APPLICATION-->
+	<!--AdMob-->
+	<meta-data android:name="ADMOB_PUBLISHER_ID" android:value="" />
+	<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+<!--END_PLUGINS_APPLICATION-->

@@ -1,0 +1,12 @@
+{
+    "copyFiles": [
+		"com/spielmeister/plugin/plugins/AdMobPlugin.java"
+	],
+	"libraries": [
+	],
+	"jars": [
+		"GoogleAdMobAdsSdk-6.4.1.jar"
+	],
+	"injectionXML": "manifest.xml",
+	"injectionXSL": "manifest.xsl"
+}

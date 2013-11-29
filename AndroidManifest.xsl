@@ -28,7 +28,10 @@
 	
 	<xsl:strip-space elements="*" />
 	<xsl:output indent="yes" />
-	<xsl:template match="comment()" />
+
+	<xsl:template match="comment()">
+		<xsl:copy/>
+	</xsl:template>
 
 	<xsl:template match="@*|node()">
 		<xsl:copy>
