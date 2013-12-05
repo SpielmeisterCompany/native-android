@@ -1,6 +1,6 @@
 {
     "copyFiles": [
-		"com/spielmeister/plugin/plugins/AdMobPlugin.java"
+		"com/tealeaf/plugin/plugins/AdMobPlugin.java"
 	],
 	"libraries": [
 	],

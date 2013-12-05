@@ -1,10 +1,14 @@
 {
     "copyFiles": [
-		"com/spielmeister/plugin/plugins/AdMobPlugin.java"
+		"com/tealeaf/plugin/plugins/AdMobPlugin.java",
+		"com/tealeaf/plugin/plugins/ChartboostCustomEventInterstitial.java",
+		"com/tealeaf/plugin/plugins/ConcreteChartboostDelegate.java",
+		"com/tealeaf/plugin/plugins/InterstitialEvent.java"
 	],
 	"libraries": [
 	],
 	"jars": [
+		"chartboost.jar",
 		"GoogleAdMobAdsSdk-6.4.1.jar"
 	],
 	"injectionXML": "manifest.xml",

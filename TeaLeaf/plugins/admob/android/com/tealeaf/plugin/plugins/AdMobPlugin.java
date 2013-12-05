@@ -1,7 +1,9 @@
 package com.tealeaf.plugin.plugins;
 
+import com.tealeaf.EventQueue;
 import com.tealeaf.logger;
 import com.tealeaf.plugin.IPlugin;
+import com.tealeaf.plugin.plugins.InterstitialEvent;
 
 import com.google.ads.*;
 
@@ -113,6 +115,8 @@ public class AdMobPlugin implements IPlugin, AdListener {
 	@Override
 	public void onDismissScreen( Ad ad ) {
 		logger.log( LOG_TAG, "onDismissScreen" );
+
+		EventQueue.pushEvent( new InterstitialEvent( false ) );
 	}
 
 	/**
@@ -140,6 +144,8 @@ public class AdMobPlugin implements IPlugin, AdListener {
 	@Override
 	public void onPresentScreen( Ad ad ) {
 		logger.log( LOG_TAG, "onPresentScreen" );
+
+		EventQueue.pushEvent( new InterstitialEvent( true ) );
 	}
 
 	/**
