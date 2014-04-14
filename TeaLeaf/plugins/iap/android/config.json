@@ -1,7 +1,7 @@
 {
 		"copyFiles": [
-			"BillingPlugin.java",
-			"IInAppBillingService.aidl"
+			"com/android/vending/billing/BillingPlugin.java",
+			"com/android/vending/billing/IInAppBillingService.aidl"
 		],
 		"libraries": [
 		],
